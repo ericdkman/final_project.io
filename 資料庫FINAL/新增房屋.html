@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>蝸牛找殼去</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <!-- viewport => 設計手機版網頁的資訊 -->
+    <meta content="房" name="keywords">
+    <!-- keywords => 指定關鍵字給google爬-->
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts => 使用google提供的字體-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid position-relative p-0">
+        <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+            <a href="" class="navbar-brand p-0">
+                <h1 class="text-primary m-0"><i class="fa fa-map-marker-alt me-3"></i>蝸牛找殼去</h1>
+                <!-- <img src="img/logo.png" alt="Logo"> -->
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0">
+                    <a href="首頁.html" class="nav-item nav-link active">首頁</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-item nav-link active">使用者</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="新增房屋.html" class="dropdown-item">註冊/登入</a>
+                            <a href="新增房屋.html" class="dropdown-item">使用者頁面</a>
+                            <a href="team.html" class="dropdown-item">瀏覽紀錄</a>
+                        </div>
+                    </div>
+
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-item nav-link active">管理者</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="管理者登入.html" class="dropdown-item">登入</a>
+                            <a href="新增房屋.html" class="dropdown-item">新增頁面</a>
+                            <a href="管理者的新增頁面.html" class="dropdown-item">新增紀錄</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <a href="" class="btn btn-primary rounded-pill py-2 px-4">Register</a> -->
+            <!-- <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0">
+                    <a href="index.html" class="nav-item nav-link">首頁</a>
+                    <div class="nav-item dropdown">
+                        <div class="dropdown-menu m-0">
+                        </div>
+                    </div>
+                </div>
+                <a href="index.html" class="nav-item nav-link">新增房屋</a>
+                
+                <a href="" class="btn btn-primary rounded-pill py-2 px-4">註冊/登入</a>
+            </div> -->
+        </nav>
+    </div>
+    <!-- Navbar & Hero End -->
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">蝸牛找殼去</h6>
+                <h1 class="mb-5">新增頁面</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s" >
+                    <div class="service-item rounded pt-3" style="height: 400px;">
+                        <div class="p-4">                
+                            <h5>房屋名稱</h5>
+                            <div class="position-relative w-75 mx-auto animated slideInDown">
+                                <input class="form-control border-0 rounded-pill w-100 py-3 ps-4 pe-5 mt-3 border border-dark" type="text" placeholder="房屋名稱">
+                            </div> 
+                            <h5>價格</h5>
+                            <div class="position-relative w-75 mx-auto animated slideInDown">
+                                <input class="form-control border-0 rounded-pill w-100 py-3 ps-4 pe-5 mt-3 border border-dark" type="text" placeholder="請輸入價格">
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item rounded pt-3" style="height: 400px;">
+                        <div class="p-4">
+                            <h5>地址</h5>
+                            <div class="position-relative w-75 mx-auto animated slideInDown">
+                                <select class="form-control border-0 rounded-pill w-100 py-3 ps-4 pe-5 custom-select" id="county" placeholder="縣市">
+                                    <option value=""></option>
+                                    <option value="台北市">台北市</option>
+                                    <option value="新北市">新北市</option>
+                                </select>
+                                <select class="form-control border-0 rounded-pill w-100 py-3 ps-4 pe-5 mt-3" id="district" placeholder="鄉鎮地區">
+                                    <option value=""></option>
+                                    <option value="中正區">中正區</option>
+                                    <option value="大同區">大同區</option>
+                                </select>
+                                <input class="form-control border-0 rounded-pill w-100 py-3 ps-4 pe-5 mt-3" type="text" placeholder="X路X巷X號">
+                                
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item rounded pt-3" style="height: 400px;">
+                        <div class="p-4">
+                            <div class="position-relative w-75 mx-auto animated slideInDown">
+                                <h5>屋齡</h5>
+                                <select class="form-control border-0 rounded-pill w-100 py-3 ps-4 pe-5 custom-select" id="" placeholder="屋齡">
+                                    <option value=""></option>
+                                    <option value="預售屋">預售屋</option>
+                                    <option value="新成屋">新成屋</option>
+                                    <option value="中古屋">中古屋</option>
+                                </select>
+                                <h5>屋型</h5>
+                                <select class="form-control border-0 rounded-pill w-100 py-3 ps-4 pe-5 mt-3" id="" placeholder="屋型">
+                                    <option value=""></option>
+                                    <option value="電梯大樓">電梯大樓</option>
+                                    <option value="透天">透天</option>
+                                    <option value="公寓">公寓</option>
+                                    <option value="別墅">別墅</option>
+                                    <option value="華夏">華夏</option>
+                                    <option value="店面">店面</option>
+                                </select>
+                                
+                                <h5>看屋目標</h5>
+                                <select class="form-control border-0 rounded-pill w-100 py-3 ps-4 pe-5 mt-3" id="objective" placeholder="租/賣">
+                                    <option value="購買">購買</option>
+                                    <option value="租借">租借</option>
+                                </select>  
+                            </div>     
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item rounded pt-3" style="height: 250px;">
+                        <div class="p-4">
+                            <form>
+                                <h5>新增圖片</h5>
+                                <input type="file" id="imageInput" accept="image/*" />
+                                <br>
+                                <br>
+                                <button type="button" onclick="previewImage()">預覽圖片</button>
+                                <br>
+                                <h5>新增說明</h5>
+                                <input type="text" id="textInput" placeholder="輸入文字">
+                            </form>
+                                                
+                            <div id="imageContainer"></div>
+                                            
+                            <script>
+                                function previewImage() {
+                                    var input = document.getElementById('imageInput');
+                                    var container = document.getElementById('imageContainer');
+                                    var textInput = document.getElementById('textInput');
+                                    
+                                    var file = input.files[0];
+                                    var reader = new FileReader();
+                                    
+                                    reader.onload = function(e) {
+                                        container.innerHTML = '<img src="' + e.target.result + '" alt="圖片" />';
+                                        container.innerHTML += '<p>' + textInput.value + '</p>';
+                                    };
+                                    
+                                    reader.readAsDataURL(file);
+                                }
+                            </script>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <button type="button" class="btn btn-primary rounded-pill py-2 px-4">新增</button>    
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+                        
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
